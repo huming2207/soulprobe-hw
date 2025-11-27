@@ -2,9 +2,157 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid e5669c4b-5924-4e3d-8c50-ca267302db45)
-	(paper "A4")
+	(uuid "e5669c4b-5924-4e3d-8c50-ca267302db45")
+	(paper "A3")
 	(lib_symbols)
+	(text "* Espressif said ETA3485, SY8088 and RY3420 should also work, footprint looks the same (SOT23-5)\n* Waveshare also tested MP1605GTF-Z, Iq is only 11uA??? (lowest of all) but Espressif didn't say it work\n* ETA3485 and TLV62569 looks good to me"
+		(exclude_from_sim no)
+		(at 300.736 248.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0f9fe48-2dfe-4936-a643-6cf715a5667e")
+	)
+	(text "Simple ESP32-P4 Dev board\nBy Jackson Ming Hu <huming2207@gmail.com>\nCopright (C) 2025 "
+		(exclude_from_sim no)
+		(at 309.372 260.858 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdd70138-4ee5-45af-886c-8bbc7a40af03")
+	)
+	(sheet
+		(at 121.92 134.62)
+		(size 36.83 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0b8db45b-4bb9-4302-934b-179ffa023884")
+		(property "Sheetname" "peripheral"
+			(at 121.92 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripheral.kicad_sch"
+			(at 121.92 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "soulprobe"
+				(path "/e5669c4b-5924-4e3d-8c50-ca267302db45"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 134.62)
+		(size 45.72 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d98346a4-aabd-4550-99ea-ed9362dec0b9")
+		(property "Sheetname" "core"
+			(at 173.99 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "core.kicad_sch"
+			(at 173.99 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "soulprobe"
+				(path "/e5669c4b-5924-4e3d-8c50-ca267302db45"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 134.62)
+		(size 35.56 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea01e0b2-7df5-4c18-8fd1-09cda0d4a7da")
+		(property "Sheetname" "power"
+			(at 68.58 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 68.58 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "soulprobe"
+				(path "/e5669c4b-5924-4e3d-8c50-ca267302db45"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
