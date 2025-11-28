@@ -7413,7 +7413,7 @@
 			)
 		)
 	)
-	(global_label "IO0{slash}LSE1"
+	(global_label "IO0{slash}LSE"
 		(shape input)
 		(at 144.78 96.52 90)
 		(fields_autoplaced yes)
@@ -7425,7 +7425,7 @@
 		)
 		(uuid "ccc32ac1-d140-476c-bcd7-b78f22665d50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.78 87.85 90)
+			(at 144.78 85.6729 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12115,7 +12115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Espressif:ESP32-P4"
+		(property "Footprint" "Espressif:ESP32-P4"
 			(at 121.92 185.42 0)
 			(effects
 				(font
