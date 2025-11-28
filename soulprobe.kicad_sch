@@ -3,32 +3,17 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "e5669c4b-5924-4e3d-8c50-ca267302db45")
-	(paper "A3")
+	(paper "A4")
+	(title_block
+		(title "Soul Probe")
+		(date "2025-11-28")
+		(rev "0.1")
+		(company "By Jackson Ming Hu <huming2207@gmail.com> Copright (C) 2025 ")
+		(comment 1 "Strictly no resell or commerical uses unless authorised by the author")
+	)
 	(lib_symbols)
-	(text "* Espressif said ETA3485, SY8088 and RY3420 should also work, footprint looks the same (SOT23-5)\n* Waveshare also tested MP1605GTF-Z, Iq is only 11uA??? (lowest of all) but Espressif didn't say it work\n* ETA3485 and TLV62569 looks good to me"
-		(exclude_from_sim no)
-		(at 300.736 248.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c0f9fe48-2dfe-4936-a643-6cf715a5667e")
-	)
-	(text "Simple ESP32-P4 Dev board\nBy Jackson Ming Hu <huming2207@gmail.com>\nCopright (C) 2025 "
-		(exclude_from_sim no)
-		(at 309.372 260.858 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cdd70138-4ee5-45af-886c-8bbc7a40af03")
-	)
 	(sheet
-		(at 121.92 134.62)
+		(at 120.65 68.58)
 		(size 36.83 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44,7 +29,7 @@
 		)
 		(uuid "0b8db45b-4bb9-4302-934b-179ffa023884")
 		(property "Sheetname" "peripheral"
-			(at 121.92 133.9084 0)
+			(at 120.65 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,7 +38,7 @@
 			)
 		)
 		(property "Sheetfile" "peripheral.kicad_sch"
-			(at 121.92 161.8746 0)
+			(at 120.65 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70,7 +55,7 @@
 		)
 	)
 	(sheet
-		(at 173.99 134.62)
+		(at 172.72 68.58)
 		(size 45.72 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -86,7 +71,7 @@
 		)
 		(uuid "d98346a4-aabd-4550-99ea-ed9362dec0b9")
 		(property "Sheetname" "core"
-			(at 173.99 133.9084 0)
+			(at 172.72 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95,7 +80,7 @@
 			)
 		)
 		(property "Sheetfile" "core.kicad_sch"
-			(at 173.99 161.8746 0)
+			(at 172.72 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -112,7 +97,7 @@
 		)
 	)
 	(sheet
-		(at 68.58 134.62)
+		(at 67.31 68.58)
 		(size 35.56 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -128,7 +113,7 @@
 		)
 		(uuid "ea01e0b2-7df5-4c18-8fd1-09cda0d4a7da")
 		(property "Sheetname" "power"
-			(at 68.58 133.9084 0)
+			(at 67.31 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -137,7 +122,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 68.58 161.8746 0)
+			(at 67.31 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)

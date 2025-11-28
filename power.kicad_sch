@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "7495ac34-9d0c-4c34-a1c0-20008555b0a4")
 	(paper "A4")
+	(title_block
+		(title "Soul Probe")
+		(date "2025-11-28")
+		(rev "0.1")
+		(company "By Jackson Ming Hu <huming2207@gmail.com> Copright (C) 2025 ")
+		(comment 1 "Strictly no resell or commerical uses unless authorised by the author")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1165,8 +1172,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1215,7 +1226,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1266,8 +1277,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1386,6 +1396,17 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "* Espressif said ETA3485, SY8088 and RY3420 should also work, footprint looks the same (SOT23-5)\n* Waveshare also tested MP1605GTF-Z, Iq is only 11uA??? (lowest of all) but Espressif didn't say it work\n* ETA3485 and TLV62569 looks good to me"
+		(exclude_from_sim no)
+		(at 27.432 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fdce420-2367-4879-af5c-59870bba210d")
 	)
 	(text "5v to 3.3v LDO"
 		(exclude_from_sim no)
@@ -2036,7 +2057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 166.37 55.88 0)
 			(effects
 				(font
@@ -2194,7 +2215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 133.35 43.18 0)
 			(effects
 				(font
@@ -2391,7 +2412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C48945845"
+		(property "Description" "Inductor"
 			(at 74.93 44.45 0)
 			(effects
 				(font
@@ -2469,7 +2490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 176.53 55.88 0)
 			(effects
 				(font
@@ -2547,7 +2568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 143.51 55.88 0)
 			(effects
 				(font
@@ -2906,7 +2927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 133.35 55.88 0)
 			(effects
 				(font
@@ -2983,7 +3004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 157.48 62.23 0)
 			(effects
 				(font
