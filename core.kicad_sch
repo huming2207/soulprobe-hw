@@ -3040,7 +3040,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q128JVS"
+		(symbol "Memory_Flash:W25Q128JVE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3052,7 +3052,7 @@
 					)
 				)
 			)
-			(property "Value" "W25Q128JVS"
+			(property "Value" "W25Q128JVE"
 				(at 7.62 11.43 0)
 				(effects
 					(font
@@ -3060,7 +3060,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
 				(at 0 22.86 0)
 				(effects
 					(font
@@ -3078,7 +3078,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
 				(at 0 27.94 0)
 				(effects
 					(font
@@ -3096,7 +3096,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
+			(property "ki_fp_filters" "WSON*1EP*8x6mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3105,7 +3105,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "W25Q128JVS_0_1"
+			(symbol "W25Q128JVE_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 10.16 -10.16)
@@ -3118,7 +3118,7 @@
 					)
 				)
 			)
-			(symbol "W25Q128JVS_1_1"
+			(symbol "W25Q128JVE_1_1"
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -3256,6 +3256,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3994,6 +4012,12 @@
 		(uuid "cc5aee2c-fbff-4712-af17-d2670f10796b")
 	)
 	(junction
+		(at 364.49 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da3199e9-67a7-4142-b8d6-9d278f089869")
+	)
+	(junction
 		(at 100.33 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4474,6 +4498,16 @@
 			(type default)
 		)
 		(uuid "1cc240bd-f68c-4b31-b647-6cc924a8a725")
+	)
+	(wire
+		(pts
+			(xy 367.03 168.91) (xy 367.03 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ede9771-8012-429d-bcde-c2a632ab2ece")
 	)
 	(wire
 		(pts
@@ -5217,6 +5251,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 171.45) (xy 364.49 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed1ffd8-e61c-47cb-a9f5-8ddfa3a18120")
+	)
+	(wire
+		(pts
 			(xy 130.81 205.74) (xy 130.81 207.01)
 		)
 		(stroke
@@ -5604,6 +5648,16 @@
 			(type default)
 		)
 		(uuid "a6262318-cebb-4190-963c-5c02628eaa64")
+	)
+	(wire
+		(pts
+			(xy 367.03 171.45) (xy 364.49 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a731935c-f538-410a-be3a-2001778d4404")
 	)
 	(wire
 		(pts
@@ -6307,7 +6361,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 168.91) (xy 364.49 173.99)
+			(xy 364.49 168.91) (xy 364.49 171.45)
 		)
 		(stroke
 			(width 0)
@@ -8751,6 +8805,97 @@
 			(project "soulprobe"
 				(path "/e5669c4b-5924-4e3d-8c50-ca267302db45/d98346a4-aabd-4550-99ea-ed9362dec0b9"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_Flash:W25Q128JVE")
+		(at 364.49 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f9a0e75-7771-4ddf-a93f-fee05d6ce33d")
+		(property "Reference" "U5"
+			(at 375.92 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q128JVE"
+			(at 375.92 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+			(at 364.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 364.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+			(at 364.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b860eefd-073c-4aa8-8e65-5266dd376166")
+		)
+		(pin "6"
+			(uuid "ad97e55e-98e8-4e62-ae6b-1d8038b7df19")
+		)
+		(pin "5"
+			(uuid "6b7104e3-3895-43cc-a98e-55d5b137650d")
+		)
+		(pin "2"
+			(uuid "53150a24-8212-459a-b991-d5cd0e84f98e")
+		)
+		(pin "3"
+			(uuid "b9820dff-2599-4119-8504-179fba88a0fd")
+		)
+		(pin "7"
+			(uuid "77d6ebe8-f1fb-4f6d-8c35-3bae13a637b0")
+		)
+		(pin "8"
+			(uuid "df1f2d7d-4d03-4002-a271-57818b86b1ef")
+		)
+		(pin "4"
+			(uuid "226147ac-d7d0-493d-bb6e-8ad37db5c165")
+		)
+		(pin "9"
+			(uuid "580c44aa-69c7-4b05-a719-9c88be746b05")
+		)
+		(instances
+			(project ""
+				(path "/e5669c4b-5924-4e3d-8c50-ca267302db45/d98346a4-aabd-4550-99ea-ed9362dec0b9"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -11554,103 +11699,6 @@
 			(project "soulprobe"
 				(path "/e5669c4b-5924-4e3d-8c50-ca267302db45/d98346a4-aabd-4550-99ea-ed9362dec0b9"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_Flash:W25Q128JVS")
-		(at 364.49 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a59b624d-f10d-4861-a4a5-168ba5b6d866")
-		(property "Reference" "U2"
-			(at 375.92 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q128JVS"
-			(at 375.92 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-			(at 364.49 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 364.49 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
-			(at 364.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C97521"
-			(at 375.92 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "06fbd1ce-1bc7-4448-a55d-f8dcbc5aecb0")
-		)
-		(pin "2"
-			(uuid "d2785387-6910-4687-a394-3b2b666c323c")
-		)
-		(pin "6"
-			(uuid "562cc976-c94e-4e08-bfd9-a0a7b2665238")
-		)
-		(pin "5"
-			(uuid "b87a98bc-4f1b-4847-b8be-fc64256a9b9e")
-		)
-		(pin "8"
-			(uuid "b6ab0ebf-0602-48df-9367-65392e9e2205")
-		)
-		(pin "3"
-			(uuid "61b603f1-d22f-4797-904a-fbe635782c43")
-		)
-		(pin "1"
-			(uuid "be154212-08a4-49b2-981f-1ba897f7fcbb")
-		)
-		(pin "7"
-			(uuid "9435459a-254f-4a05-b97c-a418797720af")
-		)
-		(instances
-			(project "soulprobe"
-				(path "/e5669c4b-5924-4e3d-8c50-ca267302db45/d98346a4-aabd-4550-99ea-ed9362dec0b9"
-					(reference "U2")
 					(unit 1)
 				)
 			)
