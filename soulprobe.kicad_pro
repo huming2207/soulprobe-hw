@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -189,11 +189,14 @@
       "track_widths": [
         0.0,
         0.0,
-        0.1,
+        0.0,
+        0.1275,
+        0.138,
         0.16,
         0.2,
         0.25,
         0.2626,
+        0.36,
         0.5,
         1.0
       ],
@@ -233,8 +236,8 @@
           "drill": 0.1
         },
         {
-          "diameter": 0.4,
-          "drill": 0.3
+          "diameter": 0.35,
+          "drill": 0.2
         },
         {
           "diameter": 0.5,
@@ -668,18 +671,6 @@
     [
       "e5669c4b-5924-4e3d-8c50-ca267302db45",
       "Root"
-    ],
-    [
-      "d98346a4-aabd-4550-99ea-ed9362dec0b9",
-      "core"
-    ],
-    [
-      "0b8db45b-4bb9-4302-934b-179ffa023884",
-      "peripheral"
-    ],
-    [
-      "ea01e0b2-7df5-4c18-8fd1-09cda0d4a7da",
-      "power"
     ]
   ],
   "text_variables": {}
