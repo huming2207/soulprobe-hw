@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -491,7 +491,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "soulprobe.kicad_pro",
+    "filename": "soulcore.kicad_pro",
     "version": 3
   },
   "net_settings": {

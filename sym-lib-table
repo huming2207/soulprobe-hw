@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "JackcoLib")(type "KiCad")(uri "${KIPRJMOD}/external/jackcolib/JackcoLib.kicad_sym")(options "")(descr ""))
-  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/external/esp/symbols/Espressif.kicad_sym")(options "")(descr ""))
-)
