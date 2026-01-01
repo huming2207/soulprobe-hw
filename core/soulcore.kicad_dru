@@ -115,7 +115,7 @@
 
 (rule "Clearance: track to PTH hole perimeter"
 	(condition "A.isPlated() && B.Type == 'track' && A.Net != B.Net")
-	(constraint hole_clearance (min 0.28mm))
+	(constraint hole_clearance (min 0.25mm))
 )
 
 # TODO: try combining with rule "Clearance: PTH to track, different nets"
